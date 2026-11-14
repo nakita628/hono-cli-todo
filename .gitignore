@@ -1,0 +1,20 @@
+node_modules
+.pnpm-store
+
+dist
+.cloudflare
+.tanstack
+
+.env
+.dev.vars
+*.local
+local.db
+.DS_Store
+
+# Panda
+styled-system
+
+routeTree.gen.ts
+
+# マイグレーション（drizzle-kit generate で再生成する）
+migrations
